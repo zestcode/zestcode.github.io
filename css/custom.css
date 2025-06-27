@@ -1,0 +1,1 @@
+:root{--primary-color:#3b82f6;--secondary-color:#10b981}.home-banner{background:linear-gradient(135deg,#667eea 0,#764ba2 100%)}.home-article-wrapper{border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,.1)}.article-content h1{color:var(--primary-color);border-bottom:2px solid var(--primary-color)}.footer{background:linear-gradient(45deg,#2c3e50,#34495e);color:#fff}
