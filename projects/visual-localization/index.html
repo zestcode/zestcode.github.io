@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Wrist-Mounted Visual Localization for Robot Manipulation — Liyun Zhang</title>
+  <meta name="description" content="Evaluating visual state estimation under close-range motion, occlusion, low texture, and manipulation-specific camera trajectories.">
+  <link rel="canonical" href="https://zestcode.github.io/projects/visual-localization/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Wrist-Mounted Visual Localization for Robot Manipulation — Liyun Zhang">
+  <meta property="og:description" content="Evaluating visual state estimation under close-range motion, occlusion, low texture, and manipulation-specific camera trajectories.">
+  <meta property="og:url" content="https://zestcode.github.io/projects/visual-localization/">
+
+  <meta name="theme-color" content="#f7f8f5">
+  <link rel="icon" href="/images/monogram.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/portfolio.css">
+  <script src="/js/portfolio.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="/" aria-label="Liyun Zhang, home"><span class="monogram" aria-hidden="true">lz.</span><span>LIYUN ZHANG</span></a>
+    <nav aria-label="Main navigation">
+      <a href="/#work">Work</a><a href="/#experience">Experience</a><a href="/#publications">Publications</a><a href="/#contact">Contact</a>
+    </nav>
+    <a class="header-resume" href="/files/liyun-zhang-resume.pdf">Resume <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="main" class="wrap">
+
+      <article class="detail-page">
+        <a class="back-link" href="/#work"><span aria-hidden="true">←</span> All work</a>
+        <p class="eyebrow">Perception / State estimation</p><h1>Wrist-Mounted Visual Localization for Robot Manipulation</h1><p class="detail-intro">Evaluating visual state estimation under close-range motion, occlusion, low texture, and manipulation-specific camera trajectories.</p>
+        <div class="tags"><span>ORB-SLAM3</span><span>VGGT-SLAM</span><span>Stereo vision</span><span>Wrist camera</span></div>
+        <div id="demo" class="detail-media">
+  <div class="system-visual visual-visual-localization">
+    <div class="visual-topline"><span>WRIST CAMERA / EVALUATION</span><span class="visual-cross" aria-hidden="true">+</span></div>
+
+      <div class="localization-diagram" aria-hidden="true"><div class="camera-symbol"><span></span><span></span></div><div class="diagram-connector"></div><div class="pose-symbol"><svg viewBox="0 0 160 120"><path d="M73 88V20m0 68 64-25M73 88 25 60" fill="none" stroke="#335e49" stroke-width="2"/><circle cx="73" cy="88" r="5" fill="#335e49"/><text x="68" y="14">z</text><text x="139" y="65">x</text><text x="13" y="61">y</text></svg></div></div>
+      <div class="pipeline"><span>Stereo observations</span><span aria-hidden="true">→</span><span>6-DoF camera pose</span></div>
+
+    <p class="visual-disclosure">Concept diagram · stereo visual localization</p>
+  </div>
+
+</div>
+
+
+        <div class="detail-body"><section><h2>Overview</h2><p>Wrist-mounted cameras encounter motion and visual conditions that differ from conventional navigation. This work evaluates localization in the setting where a robot interacts with objects.</p></section><section><h2>My contribution</h2><p>Evaluating ORB-SLAM3 and VGGT-SLAM on manipulation-specific camera motion, with stereo and stereo-inertial trajectory error as quantitative evidence.</p><ul><li>Wrist-camera evaluation for robot manipulation</li><li>ORB-SLAM3 and VGGT-SLAM</li><li>Stereo and visual-inertial state estimation</li></ul></section>
+        <section id="results"><h2>Reported results</h2><dl class="metrics"><div><dt>ORB-SLAM3 · Stereo ATE</dt><dd>≈ 5.3<span>mm</span></dd></div><div><dt>ORB-SLAM3 · Stereo-inertial ATE</dt><dd>≈ 12.0<span>mm</span></dd></div></dl>
+<p>VGGT-SLAM showed approximately 2× the ORB-SLAM3 error on the evaluated benchmark.</p><p class="result-note">Absolute trajectory error (ATE), approximately, on the evaluated manipulation benchmark. Lower is better. Results are specific to these evaluation conditions.</p></section>
+
+        </div>
+
+      </article>
+
+  </main>
+  <footer class="site-footer wrap"><span>© 2026 Liyun Zhang</span><span>Robot manipulation · VLA · Visual localization</span><div><a href="https://github.com/zestcode">GitHub ↗</a><a href="https://www.linkedin.com/in/liyun-zhang5">LinkedIn ↗</a><a href="mailto:zhang.l8@northeastern.edu">Email ↗</a></div></footer>
+</body>
+</html>

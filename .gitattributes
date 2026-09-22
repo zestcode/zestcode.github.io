@@ -1,0 +1,2 @@
+# Preserve MP4 bytes; Git should not apply line endings or text diffs.
+*.mp4 -text -diff
